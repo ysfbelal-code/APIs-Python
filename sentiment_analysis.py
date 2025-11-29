@@ -2,7 +2,7 @@ import requests
 #from huggingface_hub import InferenceClient
 
 #client = InferenceClient(token="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")
-api_url = 'https://api-inference.huggingface.co/models/distilbert-base-uncased'
+api_url = 'https://api-inference.huggingface.co/distilbert-base-uncased-finetuned-sst-2-english'
 
 headers = {
     "Authorization": 'Bearer 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'
